@@ -21,6 +21,8 @@
     <link rel="alternative" href="atom.xml" title="TWO WORLD" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
     
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
     
     
     <meta name="twitter:card" content="summary"/>
@@ -115,13 +117,13 @@
         
         
     <div id="gitalk-container" class="comment link"
-		data-enable="false"
-        data-ae="false"
-        data-ci=""
-        data-cs=""
-        data-r=""
-        data-o=""
-        data-a=""
+		data-enable="true"
+        data-ae="true"
+        data-ci="b8a41a21e414cf8d836a"
+        data-cs="4b404159fe8ecc1addf483e34a9ec4d3f77dc2d3"
+        data-r="laoheix.github.io"
+        data-o="laoheix"
+        data-a="laoheix"
         data-d="false"
     >查看评论</div>
 
@@ -134,6 +136,8 @@
     </div>
 </div>
 </body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
@@ -199,6 +203,25 @@
 </div>
 
 
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 
 
