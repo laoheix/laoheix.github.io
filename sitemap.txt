@@ -3,8 +3,8 @@ http://example.com/2024/03/24/ABOUT/
 http://example.com/2024/03/24/HISTORY-SOURCES/
 http://example.com/2024/03/24/SHUIMIAO-NO-170-MC-MOMMY/
 http://example.com/
-http://example.com/tags/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/
 http://example.com/tags/HISTORY/
+http://example.com/tags/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/
 http://example.com/tags/%E6%B0%B4%E6%B7%BC/
 http://example.com/tags/MC-MOMMY/
 http://example.com/tags/%E6%A1%9C%E4%BA%95%E5%AE%81%E5%AE%81/
